@@ -1,40 +1,29 @@
 <!DOCTYPE html>
-<html>
+<head>
+  <title>My First JavaScript</title>
+  <script src="script.js" defer></script>
+</head>
 <body>
 
 <h1>My First JavaScript</h1>
 
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button>
+<button type="button" onclick="displayDateTime()">
+  Click me to display Date and Time.
+</button>
 
 <p id="demo"></p>
 
-  <h2>Demo JavaScript in Body</h2>
+<h2>Demo JavaScript in Body</h2>
 
-<p id="demo">A Paragraph</p>
+<p id="demo2">A Paragraph</p>
 
 <button type="button" onclick="myFunction()">Try it</button>
-
-<script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Paragraph changed.";
-}
-</script>
-  <script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Paragraph changed.";
-}
-</script>
-</head>
-<body>
 
 <h3>Demo JavaScript in Head</h3>
 
-<p id="demo">A Paragraph.</p>
+<p id="demo3">A Paragraph.</p>
 
-<button type="button" onclick="myFunction()">Try it</button>
-
+<button type="button" onclick="myFunctionInHead()">Try it</button>
 
 </body>
-</html> 
+</html>
